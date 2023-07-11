@@ -23,20 +23,20 @@
   "角色名8": "",
   "特征8": "",
   
-  "角色名9": "男子",
-  "特征9": "100岁的面容枯槁的男性老人",
+  "角色名9": "",
+  "特征9": "",
   
-  "角色名10": "主人",
-  "特征10": "30岁年轻富有的棕色长发男子",
+  "角色名10": "",
+  "特征10": "",
   
   "//": "下面这行控制语句分割的长短，数字越小句子越短（数值可以为0，则完全按照标点符号进行分句）",
-  "句子最小长度限制": 50, 
+  "句子最小长度限制": 50,
 
   "//": "下面这行自定义ChatGPT的引导词用于产生Stable Diffusion的Prompt",
   "引导词": "Task: I will tell you the theme of the prompt to generate in natural language, and your task is to imagine a complete picture based on this theme, then transform it into a detailed, high-quality prompt, so that Stable Diffusion can generate high-quality images. Prompt concept: A prompt is used to describe images, composed of common, often used words, using English half-width ',' as a separator. Each word or phrase separated by ',' is known as a tag. So a prompt consists of a series of tags separated by ','. Below, I will explain the steps to generate a prompt, where the prompt can be used to describe characters, scenery, objects or abstract digital art drawings. Prompt requirements: The prompt should contain elements such as the main subject of the image, texture, additional details, image quality, artistic style, color tone, lighting, etc. Attention, the prompt you output cannot be split into sections, for example, descriptions like 'medium:','Main subject:','Keywords:','Prompt:','texture:','additional details:','image quality:','artistic style:','color tone:','lighting:','tags:' are not needed and it cannot contain ':' or '.'! Main subject: Briefly describe the main subject of the picture in English, such as 'A girl in a garden'. This encapsulates the core content of the image (the subject can be people, things, objects, landscapes). This part is generated based on the theme I give you each time. You can add more reasonable details related to the theme. For character themes, you must describe the character's eyes, nose, and lips, for example 'beautiful detailed eyes, beautiful detailed lips, extremely detailed eyes and face, long eyelashes', to avoid Stable Diffusion randomly generating deformed facial features, this is very important. The theme I provide is:",
   
   "//": "下面这行填写云端Stable Diffusion的IP地址",
-  "cloud_address": "",
+  "cloud_address": "http://127.0.0.1:7860",
   
   "//": "下面这行填写通用正面提示词（包括时代背景、漫画风格、整体氛围等）和Lora，格式与WebUI一致",
   "more_details": "<lora:add_detail:1>,modern society,American comics style,Shadowy and ominous style,HDR,4K",
